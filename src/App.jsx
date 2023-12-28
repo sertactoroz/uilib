@@ -1,10 +1,11 @@
 import { useState } from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { CORE_CONCEPTS } from './data.js';
 import Header from './components/Header/Header.jsx';
 import CoreConcept from './components/CoreConcept.jsx';
 import TabButton from './components/TabButton.jsx';
 import { EXAMPLES } from './data.js';
+import CustomNavbar from './components/CustomNavbar/CustomNavbar.jsx';
 
 function App() {
   const [selectedTopic, setSelectedTopic] = useState();
@@ -32,7 +33,9 @@ function App() {
   }
 
   return (
+
     <div>
+      <CustomNavbar />
       <Header />
       <main>
         <section id="core-concepts">

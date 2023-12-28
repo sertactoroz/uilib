@@ -7,10 +7,8 @@
 html {
   font-family: "Quicksand", sans-serif;
   line-height: 1.5;
-
   color: #ebe7ef;
-  background: radial-gradient(#280a48, #20043d);
-
+  background: radial-gradient(#6d6d70, #2e2e2e);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -27,8 +25,8 @@ main {
 
 #core-concepts {
   padding: 2rem;
-  border-radius: 6px;
-  background-color: #140524;
+  border-radius: 20px;
+  background-color: #1c1c1d;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
