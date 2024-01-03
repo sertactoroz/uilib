@@ -15,5 +15,16 @@
     "vite": "^4.3.9"
   },
   "keywords": [],
-  "description": ""
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sertactoroz/uilib.git"
+  },
+  "author": "M. Sertac Toröz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sertactoroz/uilib/issues"
+  },
+  "homepage": "https://github.com/sertactoroz/uilib#readme"
 }
